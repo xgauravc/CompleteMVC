@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoForMVC", "DemoForMVC\De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCRazorDemo", "MVCRazorDemo\MVCRazorDemo.csproj", "{8514F721-9319-43A4-8A7C-4CB873881C5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCBundlesAndMiniDemo", "MVCBundlesAndMiniDemo\MVCBundlesAndMiniDemo.csproj", "{16853E05-6C0F-40B5-ABD3-22E14F226B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAreasDemo", "MVCAreasDemo\MVCAreasDemo.csproj", "{7D847575-7A74-4991-9F23-BE25B762B00B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8514F721-9319-43A4-8A7C-4CB873881C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8514F721-9319-43A4-8A7C-4CB873881C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8514F721-9319-43A4-8A7C-4CB873881C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16853E05-6C0F-40B5-ABD3-22E14F226B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16853E05-6C0F-40B5-ABD3-22E14F226B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16853E05-6C0F-40B5-ABD3-22E14F226B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16853E05-6C0F-40B5-ABD3-22E14F226B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D847575-7A74-4991-9F23-BE25B762B00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D847575-7A74-4991-9F23-BE25B762B00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D847575-7A74-4991-9F23-BE25B762B00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D847575-7A74-4991-9F23-BE25B762B00B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
