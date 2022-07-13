@@ -8,6 +8,14 @@ namespace MCVControllerDemo.Controllers
 {
     public class HomeController : Controller
     {
-        
+        public string Index() {
+            return "This is string from index view";
+        }
+        public ViewResult Home() {
+            return View();
+        }
+        public DateTime Date() {
+            return DateTime.Now;
+        }
     }
 }
