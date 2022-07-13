@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAreasDemo", "MVCAreasDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAutoMapperDemo", "MVCAutoMapperDemo\MVCAutoMapperDemo.csproj", "{35C4A25C-48E5-4B1C-9FD0-1A9BF39FBC97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCBootstrapDemo", "MVCBootstrapDemo\MVCBootstrapDemo.csproj", "{C7DD4CD6-AE11-41DF-A721-8D5C683E8308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{35C4A25C-48E5-4B1C-9FD0-1A9BF39FBC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35C4A25C-48E5-4B1C-9FD0-1A9BF39FBC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35C4A25C-48E5-4B1C-9FD0-1A9BF39FBC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DD4CD6-AE11-41DF-A721-8D5C683E8308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DD4CD6-AE11-41DF-A721-8D5C683E8308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DD4CD6-AE11-41DF-A721-8D5C683E8308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DD4CD6-AE11-41DF-A721-8D5C683E8308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
