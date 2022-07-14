@@ -129,7 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap1.css" />
+    <Content Include="Content\bootswatch-lux.css" />
+    <Content Include="Content\bootswatch-united.css" />
+    <Content Include="Content\bootswatch-superhero.css" />
     <Content Include="Content\fontawesome.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -170,6 +172,9 @@
     <Content Include="webfonts\fa-solid-900.woff2" />
     <Content Include="webfonts\fa-v4compatibility.ttf" />
     <Content Include="webfonts\fa-v4compatibility.woff2" />
+    <Content Include="Views\Shared\_LayoutUnited.cshtml" />
+    <Content Include="Views\Shared\_LayoutSuperHero.cshtml" />
+    <Content Include="Views\Shared\_LayoutLux.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

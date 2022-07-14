@@ -3,6 +3,19 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under the MIT license
  */
+console.log("bootstrap.js file loaded ");
+$("#theme").on("change", function () {
+    var item = $('#theme option:selected').text();
+
+    console.log("theme color", item);
+
+    $.post("/Home/SetTheme",
+        {
+            data: item
+        });
+    location.reload();
+
+});
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')

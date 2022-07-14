@@ -26,6 +26,20 @@ namespace MVCBootstrapDemo
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/fontawesome.css"));
+            bundles.Add(new StyleBundle("~/Content/css1").Include(
+                      "~/Content/bootswatch-lux.css",
+                      "~/Content/site.css",
+                      "~/Content/fontawesome.css"));
+            bundles.Add(new StyleBundle("~/Content/css2").Include(
+                      "~/Content/bootswatch-united.css",
+                      "~/Content/site.css",
+                      "~/Content/fontawesome.css"));
+            bundles.Add(new StyleBundle("~/Content/css3").Include(
+                      "~/Content/bootswatch-superhero.css",
+                      "~/Content/site.css",
+                      "~/Content/fontawesome.css"));
+
+            //bundles.Add(new StyleBundle("~/Content/css").IncludeDirectory("~/Content", "*.css"));
         }
     }
 }

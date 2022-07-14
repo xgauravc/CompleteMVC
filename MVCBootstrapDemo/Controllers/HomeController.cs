@@ -13,7 +13,7 @@ namespace MVCBootstrapDemo.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ViewResult About()
         {
             ViewBag.Message = "Your application description page.";
 
@@ -25,6 +25,25 @@ namespace MVCBootstrapDemo.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        //public ActionResult SetTheme() {
+        //    return View("About");
+        //}
+        [HttpPost]
+        public ActionResult SetTheme(string data) 
+        {
+
+            //Create a Cookie with a suitable Key.
+            HttpCookie nameCookie = new HttpCookie("theme");
+            //Set the Cookie value.
+            nameCookie.Values["theme"] = data;
+            //Set the Expiry date.
+            nameCookie.Expires = DateTime.Now.AddDays(1);
+            //Add the Cookie to Browser.
+            Response.Cookies.Add(nameCookie);
+
+
+            return RedirectToAction("About");
         }
     }
 }
