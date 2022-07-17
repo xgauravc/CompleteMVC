@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCBootstrapDemo2", "MVCBoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCHtmlHempersDemo", "MVCHtmlHempersDemo\MVCHtmlHempersDemo.csproj", "{FD06786E-832C-4685-81F6-3A4848F5AAAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCLayoutsDemo", "MVCLayoutsDemo\MVCLayoutsDemo.csproj", "{94F0375C-E32C-499D-B29D-60019CE76723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{FD06786E-832C-4685-81F6-3A4848F5AAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD06786E-832C-4685-81F6-3A4848F5AAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD06786E-832C-4685-81F6-3A4848F5AAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F0375C-E32C-499D-B29D-60019CE76723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F0375C-E32C-499D-B29D-60019CE76723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F0375C-E32C-499D-B29D-60019CE76723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F0375C-E32C-499D-B29D-60019CE76723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
