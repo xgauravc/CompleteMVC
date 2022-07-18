@@ -1,0 +1,44 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*inline Html helpers*@
+    @*can be used in single view*@
+    @helper MyListHtmlHelper(string[] str)
+
+    {
+        if (str.Length == 0) 
+            {
+                <p>No data exists </p>
+            } else 
+            {
+                <ul>
+                    @foreach (var item in str)
+                    {
+                        <li>@item</li>
+                    }
+
+                </ul> 
+            }
+        
+    }
+    <div>
+        <p>Example of helper - </p>
+        @MyListHtmlHelper(new string[] { "G", "a", "u", "r", "a", "v" })
+    </div>
+    <div>
+        <p>Example of helper2 - </p>
+        @MyListHtmlHelper(new string[] { "C", "h", "a", "w", "r", "e" })
+    </div>
+    <div>
+        <p>Example of helper3 - </p>
+        @MyListHtmlHelper(new string[] { })
+    </div>
+</body>
+</html>
