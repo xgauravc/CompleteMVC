@@ -1,0 +1,66 @@
+﻿@using MVCRazorDemo.Models @* to include directory**@
+@model MVCRazorDemo.Models.Employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index2</title>
+</head>
+<body>
+    @{
+        bool isTrue = true;
+    }
+    <div>
+        @if (isTrue)
+        {
+            <h1>this is showing because isTrue has value true.</h1>
+
+        }
+    </div>
+
+    <div>
+        @{
+            int i = 2;
+            System.Collections.Generic.List<string> eList = new System.Collections.Generic.List<string> { "Gaurav", "G", "A" };
+            var iList = new List<int>() { 1, 2, 3, 4, 5 };
+            <text>var iList = new List<int>
+                    () { 1, 2, 3, 4, 5 };</text>
+
+            Employee e1 = new Employee() { EmpId = 1, EmpName = "Gaurav", Department = "Engg" };
+        }
+        <hr />
+        <div>
+            @*Ternary operator *@
+
+            @(i == 2 ? "i is 2" : "i is not 2");
+        </div>
+
+
+        <hr />
+
+        @{
+            for (int n = 0; n <= i; n++)
+            {
+                <p>This is the value of n -> @n</p>
+            }
+
+            foreach (string element in eList)
+            {
+                <p>Element of eList -> @element</p>
+            }
+            foreach (int element in iList)
+            {
+                <p>Element of eList -> @element</p>
+            }
+        }
+        <p>@e1.EmpId</p>
+        <p>@e1.EmpName</p>
+        <p>@e1.Department</p>
+</div>
+</body>
+</html>
