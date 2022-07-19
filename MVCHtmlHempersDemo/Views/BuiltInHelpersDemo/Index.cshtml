@@ -18,10 +18,22 @@
         @*@Html.ActionLink("Click me to do nothing","Index",new { name ="Gaurav"})*@
         @Html.ActionLink("Click me to do nothing","Index",new { name =name})
     </div>
-    <div style="margin-top:100px"> 
-        @Html.TextBox("textBox1","gaurav ")
+    <div style="margin-top:100px">
+        @Html.TextBox("textBox1", "Gaurav", new { id = "CustomId" })
+        @Html.TextBox("textBox1", "2", new { id = "CustomId", type = "number",@class="myCustomClass" ,style="background-color:pink!important"})
+
     </div>
+
+    @Html.CheckBox("checkBox1",true)
     <div> 
+        @Html.Password("myPassword")
+    </div>
+    <div>
+        <hr/>
+        @using(Html.BeginForm()) { 
+        
+        }
+        <hr/>
     </div>
 </body>
 </html>
