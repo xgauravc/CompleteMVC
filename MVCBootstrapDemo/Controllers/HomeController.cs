@@ -43,7 +43,7 @@ namespace MVCBootstrapDemo.Controllers
             Response.Cookies.Add(nameCookie);
 
 
-            return RedirectToAction("About");
+            return RedirectToAction("Index");
         }
     }
 }

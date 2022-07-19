@@ -4,7 +4,34 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
+
+    @{
+        var theme = Request.Cookies["theme"];
+        var themeValue = theme != null ? theme.Value.Split('=')[1] : "undefined";
+    }
+
+    @{
+        if (themeValue == "Lux")
+        {
+            @Styles.Render("~/Content/css1");
+
+        }
+        else if (themeValue == "SuperHero")
+        {
+            @Styles.Render("~/Content/css3");
+        }
+        else if (themeValue == "United")
+        {
+            @Styles.Render("~/Content/css2");
+        }
+        else
+        {
+            @Styles.Render("~/Content/css");
+        }
+    }
+
+
+    @*@Styles.Render("~/Content/css")*@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -27,6 +54,7 @@
             </div>
             <div class="row text-right">
                 <select name="theme" id="theme">
+                    <option></option>
                     <option value="0">Lux</option>
                     <option value="1">United</option>
                     <option value="2">SuperHero</option>

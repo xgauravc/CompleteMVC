@@ -1,25 +1,27 @@
 ﻿
 @{
 
-    var theme = Request.Cookies["theme"];
+    Layout = "~/Views/Shared/_Layout.cshtml";
 
-    var themeValue = theme != null ? theme.Value.Split('=')[1] : "undefined"; ;
-    //var themeValue = theme["Value"];
-    if (themeValue == "Lux")
-    {
-        Layout = "~/Views/Shared/_LayoutLux.cshtml";
+    //var theme = Request.Cookies["theme"];
 
-    }
-    else if (themeValue == "SuperHero")
-    {
-        Layout = "~/Views/Shared/_LayoutSuperHero.cshtml";
-    }
-    else if (themeValue == "United")
-    {
-        Layout = "~/Views/Shared/_LayoutUnited.cshtml";
-    }
-    else
-    {
-        Layout = "~/Views/Shared/_Layout.cshtml";
-    }
+    //var themeValue = theme != null ? theme.Value.Split('=')[1] : "undefined"; 
+    ////var themeValue = theme["Value"];
+    //if (themeValue == "Lux")
+    //{
+    //    Layout = "~/Views/Shared/_LayoutLux.cshtml";
+
+    //}
+    //else if (themeValue == "SuperHero")
+    //{
+    //    Layout = "~/Views/Shared/_LayoutSuperHero.cshtml";
+    //}
+    //else if (themeValue == "United")
+    //{
+    //    Layout = "~/Views/Shared/_LayoutUnited.cshtml";
+    //}
+    //else
+    //{
+    //    Layout = "~/Views/Shared/_Layout.cshtml";
+    //}
 }

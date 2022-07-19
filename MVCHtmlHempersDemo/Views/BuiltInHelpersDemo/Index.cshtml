@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @{
+        string name = "Gaurav";
+     }
+    <div> 
+        @*@Html.ActionLink("Click me to do nothing","Index",new { name ="Gaurav"})*@
+        @Html.ActionLink("Click me to do nothing","Index",new { name =name})
+    </div>
+    <div style="margin-top:100px"> 
+        @Html.TextBox("textBox1","gaurav ")
+    </div>
+    <div> 
+    </div>
+</body>
+</html>
