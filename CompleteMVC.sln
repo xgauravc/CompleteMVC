@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCViewBagAndViewDataDemo",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCEFDemo", "MVCEFDemo\MVCEFDemo.csproj", "{8DDC60D2-1EBC-4638-9F56-9FAF9C8A2FEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCRenderPageDemo", "MVCRenderPageDemo\MVCRenderPageDemo.csproj", "{0199E676-E8DC-4F25-A169-82423E938881}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{8DDC60D2-1EBC-4638-9F56-9FAF9C8A2FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDC60D2-1EBC-4638-9F56-9FAF9C8A2FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DDC60D2-1EBC-4638-9F56-9FAF9C8A2FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0199E676-E8DC-4F25-A169-82423E938881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0199E676-E8DC-4F25-A169-82423E938881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0199E676-E8DC-4F25-A169-82423E938881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0199E676-E8DC-4F25-A169-82423E938881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
