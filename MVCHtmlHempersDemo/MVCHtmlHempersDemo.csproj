@@ -96,6 +96,7 @@
     <Compile Include="Controllers\BuiltInHelpersDemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StronglyTypedDemoController.cs" />
+    <Compile Include="Controllers\TemplatedHelpersDemoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -109,6 +110,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\BuiltInHelpersDemo\Index.cshtml" />
     <Content Include="Views\StronglyTypedDemo\Index.cshtml" />
+    <Content Include="Views\TemplatedHelpersDemo\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
