@@ -111,6 +111,7 @@
     <Content Include="Views\BuiltInHelpersDemo\Index.cshtml" />
     <Content Include="Views\StronglyTypedDemo\Index.cshtml" />
     <Content Include="Views\TemplatedHelpersDemo\Index.cshtml" />
+    <Content Include="Views\TemplatedHelpersDemo\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

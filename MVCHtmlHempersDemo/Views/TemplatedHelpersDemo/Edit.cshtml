@@ -1,0 +1,38 @@
+﻿@model MVCHtmlHempersDemo.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div>
+        @Html.DisplayName("Id") - @Html.Editor("EmpId")
+    </div>
+    <hr />
+    <div>
+        @Html.DisplayName("Id") - @Html.EditorFor(x => x.EmpId)
+    </div>
+
+    <hr />
+    <div>
+        @Html.DisplayNameFor(x => x.DOB) - @Html.EditorFor(x => x.DOB)
+    </div><hr />
+          <div>
+              @Html.DisplayName("Model")
+              <hr />
+              @using (Html.BeginForm("myModelForm"))
+              {
+                  @Html.EditorForModel()
+                  
+                  <button type="submit">Submit</button>
+              }
+          </div>
+</body>
+</html>
