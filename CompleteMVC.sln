@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCRenderPageDemo", "MVCRen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCJqueryDemo", "MVCJqueryDemo\MVCJqueryDemo.csproj", "{9F6BEB21-1210-48D3-9B6A-50A552E65FEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTempDataDemo", "MVCTempDataDemo\MVCTempDataDemo.csproj", "{EDAB8B7E-2B4B-4097-84CA-D45E3B13D6D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{9F6BEB21-1210-48D3-9B6A-50A552E65FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6BEB21-1210-48D3-9B6A-50A552E65FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6BEB21-1210-48D3-9B6A-50A552E65FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAB8B7E-2B4B-4097-84CA-D45E3B13D6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAB8B7E-2B4B-4097-84CA-D45E3B13D6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAB8B7E-2B4B-4097-84CA-D45E3B13D6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAB8B7E-2B4B-4097-84CA-D45E3B13D6D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

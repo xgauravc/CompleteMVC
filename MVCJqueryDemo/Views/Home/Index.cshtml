@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="txtBox1"/>
+    </div>
+    <div>
+        <label id="lbl1"></label>
+    </div>
+    <div> 
+        <button id="btnTest1">Click me</button>
+    </div>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        //alert("this is alert");
+        $("#btnTest1").click(function () {
+            console.log("I'm clicked");
+            myFunc();
+        });
+    });
+    function myFunc() {
+        var temp = $("#txtBox1").val();
+        $("#lbl1").text(temp);
+    }
+</script>
