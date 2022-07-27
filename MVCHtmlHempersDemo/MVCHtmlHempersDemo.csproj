@@ -94,9 +94,11 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BuiltInHelpersDemoController.cs" />
+    <Compile Include="Controllers\CustomeHelpersDemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StronglyTypedDemoController.cs" />
     <Compile Include="Controllers\TemplatedHelpersDemoController.cs" />
+    <Compile Include="CustomHelperDemo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -112,6 +114,7 @@
     <Content Include="Views\StronglyTypedDemo\Index.cshtml" />
     <Content Include="Views\TemplatedHelpersDemo\Index.cshtml" />
     <Content Include="Views\TemplatedHelpersDemo\Edit.cshtml" />
+    <Content Include="Views\CustomeHelpersDemo\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

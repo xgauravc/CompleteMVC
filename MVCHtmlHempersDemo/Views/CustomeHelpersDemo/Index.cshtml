@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @CustomHelperDemo.Image("https://www.w3schools.com/graphics/pic_the_scream.jpg", "This is custom helper 1")
+    </div>
+    <hr />
+    <div>
+        @Html.Img("https://www.w3schools.com/graphics/pic_the_scream.jpg", "This is custom helper 2")
+    </div>
+    <hr />
+    
+    <div>
+        @Html.ImgTag("https://www.w3schools.com/graphics/pic_the_scream.jpg", "This is custom helper 3")
+    </div>
+    <hr />
+</body>
+</html>
