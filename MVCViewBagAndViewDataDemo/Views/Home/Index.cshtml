@@ -1,0 +1,44 @@
+﻿@model MVCViewBagAndViewDataDemo.Models.Employee
+@using MVCViewBagAndViewDataDemo.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <ul>
+
+            @foreach (var item in ViewBag.empList)
+            {
+                <li>
+                    @item.EmpId @item.EmpName @item.Department
+
+                </li>
+
+            }
+        </ul>
+
+    </div>
+    <div>
+        <ul>
+
+            @foreach (var item in (List<Employee>)ViewData["empList1"])
+            {
+            <li>
+                @item.EmpId @item.EmpName @item.Department
+
+            </li>
+
+            }
+        </ul>
+
+    </div>
+</body>
+</html>
