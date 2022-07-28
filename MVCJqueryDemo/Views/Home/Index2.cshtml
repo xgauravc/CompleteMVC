@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <title>Index2</title>
+</head>
+<body>
+    <div > 
+        <form>
+            <label>Id</label> : <input type="text" id="inpStdId" placeholder="Id"/> <br/><br/>
+            <label>Name</label> : <input type="text" id="inpStdName" placeholder="Name"/> <br/><br/>
+            <input type="button" id="btnPostStudent" value=" Post data"/>
+        </form>
+    </div>
+</body>
+</html>
+<script>
+    $("#btnPostStudent").click(function () {
+        console.log("Send button clicked");
+        var id = $("#inpStdId").val();
+        var name = $("#inpStdName").val();
+
+        var object = {
+            Id: id,
+            Name:name
+        }
+        AddStudent(object);
+    });
+
+    function AddStudent(obj) {
+        console.log("inside add student method");
+        $.ajax({
+            url: "/Home/AddStudent",
+            method: "POST",
+            data: obj,
+            success: function (data) {
+                console.log(data);
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+</script>

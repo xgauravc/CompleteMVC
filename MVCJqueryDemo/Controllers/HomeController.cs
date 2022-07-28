@@ -15,6 +15,9 @@ namespace MVCJqueryDemo.Controllers
         public ActionResult Index()
         {
             return View();
+        }public ActionResult Index2()
+        {
+            return View();
         }
         public JsonResult GetStudent() {
 
@@ -24,6 +27,12 @@ namespace MVCJqueryDemo.Controllers
             };
             var json = JsonConvert.SerializeObject(student);
             return Json(json, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public JsonResult AddStudent(Student student) 
+        {
+            return Json(student, JsonRequestBehavior.AllowGet);
         }
     }
 }
