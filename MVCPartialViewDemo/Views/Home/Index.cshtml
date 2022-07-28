@@ -1,0 +1,18 @@
+﻿@model IEnumerable<MVCPartialViewDemo.Models.Employee>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div>
+    @foreach (var item in Model)
+    {
+        //partial returs MVCHtmlString
+
+        //@Html.Partial("_Card", item)
+        
+        //returns void and faster. Can't store data as returns void
+        Html.RenderPartial("_Card", item);
+    }
+</div>
+
