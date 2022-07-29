@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAjaxHelpersDemo", "MVCAj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPartialViewDemo", "MVCPartialViewDemo\MVCPartialViewDemo.csproj", "{2C34B352-0F1B-4351-BF9C-C2A113A7A259}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCActionFilterDemo", "MVCActionFilterDemo\MVCActionFilterDemo.csproj", "{00F97C70-091B-43FA-A1B6-E4263E87ABB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{2C34B352-0F1B-4351-BF9C-C2A113A7A259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C34B352-0F1B-4351-BF9C-C2A113A7A259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C34B352-0F1B-4351-BF9C-C2A113A7A259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F97C70-091B-43FA-A1B6-E4263E87ABB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F97C70-091B-43FA-A1B6-E4263E87ABB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F97C70-091B-43FA-A1B6-E4263E87ABB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F97C70-091B-43FA-A1B6-E4263E87ABB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
