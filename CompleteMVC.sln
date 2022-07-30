@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAuthenticationAndAuthori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCRolesDemo", "MVCRolesDemo\MVCRolesDemo.csproj", "{579F2D70-3016-4640-8D44-03670A1F4495}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCIdentityDemo", "MVCIdentityDemo\MVCIdentityDemo.csproj", "{B04A875D-B184-48C8-93A3-1C85CE608E66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{579F2D70-3016-4640-8D44-03670A1F4495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579F2D70-3016-4640-8D44-03670A1F4495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579F2D70-3016-4640-8D44-03670A1F4495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04A875D-B184-48C8-93A3-1C85CE608E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04A875D-B184-48C8-93A3-1C85CE608E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04A875D-B184-48C8-93A3-1C85CE608E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04A875D-B184-48C8-93A3-1C85CE608E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
