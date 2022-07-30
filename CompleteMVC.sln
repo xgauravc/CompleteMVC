@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPartialViewDemo", "MVCPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCActionFilterDemo", "MVCActionFilterDemo\MVCActionFilterDemo.csproj", "{00F97C70-091B-43FA-A1B6-E4263E87ABB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAuthenticationAndAuthorization", "MVCAuthenticationAndAuthorization\MVCAuthenticationAndAuthorization.csproj", "{94BA5CF3-FE81-43EA-A1EB-D8360401B91E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{00F97C70-091B-43FA-A1B6-E4263E87ABB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00F97C70-091B-43FA-A1B6-E4263E87ABB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00F97C70-091B-43FA-A1B6-E4263E87ABB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BA5CF3-FE81-43EA-A1EB-D8360401B91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BA5CF3-FE81-43EA-A1EB-D8360401B91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BA5CF3-FE81-43EA-A1EB-D8360401B91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BA5CF3-FE81-43EA-A1EB-D8360401B91E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
