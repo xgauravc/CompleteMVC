@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDummy", "MVCDummy\MVCDum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCModelBinderDemo", "MVCModelBinderDemo\MVCModelBinderDemo.csproj", "{0B159E57-8009-44A0-A198-165E773CCADB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCLifeCycleDemo", "MVCLifeCycleDemo\MVCLifeCycleDemo.csproj", "{B1883115-EEBA-4D74-B341-DB4517F2B3E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{0B159E57-8009-44A0-A198-165E773CCADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B159E57-8009-44A0-A198-165E773CCADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B159E57-8009-44A0-A198-165E773CCADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1883115-EEBA-4D74-B341-DB4517F2B3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1883115-EEBA-4D74-B341-DB4517F2B3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1883115-EEBA-4D74-B341-DB4517F2B3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1883115-EEBA-4D74-B341-DB4517F2B3E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
