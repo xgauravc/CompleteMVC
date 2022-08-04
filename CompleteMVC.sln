@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCIdentityDemo", "MVCIdent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDummy", "MVCDummy\MVCDummy.csproj", "{75979CA6-43D4-4E27-AE9A-0F8B2F8477D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCModelBinderDemo", "MVCModelBinderDemo\MVCModelBinderDemo.csproj", "{0B159E57-8009-44A0-A198-165E773CCADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{75979CA6-43D4-4E27-AE9A-0F8B2F8477D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75979CA6-43D4-4E27-AE9A-0F8B2F8477D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75979CA6-43D4-4E27-AE9A-0F8B2F8477D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B159E57-8009-44A0-A198-165E773CCADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B159E57-8009-44A0-A198-165E773CCADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B159E57-8009-44A0-A198-165E773CCADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B159E57-8009-44A0-A198-165E773CCADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
